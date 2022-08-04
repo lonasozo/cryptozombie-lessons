@@ -112,7 +112,7 @@ Pertanto `require` è abbastanza utile per verificare determinate condizioni che
 
 Nel nostro gioco di zombi non vogliamo che l'utente sia in grado di creare un numero illimitato di zombi nel suo esercito chiamando ripetutamente `createRandomZombie` — ciò renderebbe il gioco non molto divertente.
 
-Usiamo `require` per assicurarsi che questa funzione venga eseguita una sola volta per utente, quando creano il loro primo zombi.
+Usiamo `require` per assicurarci che questa funzione venga eseguita una sola volta per utente, solo quando viene creato il primo zombi.
 
 1. Metti una dichiarazione `request` all'inizio di `createRandomZombie`. La funzione dovrebbe verificare che `ownerZombieCount[msg.sender]` sia uguale a `0`, altrimenti genera un errore.
 
