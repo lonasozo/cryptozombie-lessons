@@ -80,7 +80,7 @@ Finiamo di scrivere la funzione `feedAndMultiply`.
 
 La formula per calcolare il DNA di un nuovo zombi è semplice: è semplicemente la media tra il DNA dello zombi che si è nutrito ed il DNA del bersaglio. 
 
-For example:
+Per esempio:
 
 ```
 function testDnaSplicing() public {
@@ -91,7 +91,7 @@ function testDnaSplicing() public {
 }
 ```
 
-Successivamente possiamo rendere la nostra formula più complicata, se vogliamo, aggiungendo un po 'di casualità al DNA del nuovo zombi. Ma per ora lo terremo semplice — possiamo sempre tornarci più tardi.
+Successivamente possiamo rendere la nostra formula più complicata, se vogliamo, aggiungendo un po' di casualità al DNA del nuovo zombi. Ma per ora lo terremo semplice — possiamo sempre tornarci più tardi.
 
 # Facciamo una prova
 
