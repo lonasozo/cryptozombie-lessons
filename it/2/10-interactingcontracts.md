@@ -127,9 +127,9 @@ contract LuckyNumber {
 }
 ```
 
-Questo sarebbe un semplice contratto in cui chiunque potrebbe memorizzare il proprio numero fortunato ed esso verrà cos' associato al proprio indirizzo Ethereum. Quindi chiunque altro potrebbe cercare il numero fortunato di quella persona usando il proprio indirizzo.
+Questo sarebbe un semplice contratto in cui chiunque potrebbe memorizzare il proprio numero fortunato ed esso verrà così associato al proprio indirizzo Ethereum. Quindi chiunque altro potrebbe cercare il numero fortunato di quella persona usando il proprio indirizzo.
 
-Ora diciamo che avevamo un contratto esterno che voleva leggere i dati in questo contratto usando la funzione `getNum`.
+Ora diciamo abbiamo un contratto esterno che vuole leggere i dati in questo contratto usando la funzione `getNum`.
 
 Per prima cosa dovremmo definire una **_interface_** del contratto `LuckyNumber`:
 
